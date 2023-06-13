@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendar</title>
+    <link rel="stylesheet" href="agenda.css">
+</head>
+<body>
+    <div class="header">
+        <img class="logo" src="hasbulla sem fundo.png" alt="Logo">
+        <h1 class="title">Hasbulla Barber</h1>
+        <nav class="menu">
+          <a href="login.html"><div class="menu-item" id="i2kk">Login</a>
+          </div>
+          <a href="agenda.html"><div class="menu-item" id="i111">Agendar</a>
+          </div>
+          <a href="about.html"><div class="menu-item" id="izfjt">Quem somos</a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="container">
+        <h1>Agendamento de Corte</h1>
+    
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label for="data">Data:</label>
+            <input type="date" id="data" name="data" required>
+          </div>
+    
+          <div class="form-group">
+            <label for="horario">Horário:</label>
+            <select id="horario" name="horario" required>
+              <optgroup label="Manhã">
+                <option value="08:00">08:00</option>
+                <option value="09:00">09:00</option>
+                <option value="10:00">10:00</option>
+                <option value="11:00">11:00</option>
+              </optgroup>
+              <optgroup label="Tarde">
+                <option value="13:00">13:00</option>
+                <option value="14:00">14:00</option>
+                <option value="15:00">15:00</option>
+                <option value="16:00">16:00</option>
+                <option value="17:00">17:00</option>
+              </optgroup>
+            </select>
+          </div>
+    
+          <div class="form-group">
+            <label for="profissional">Profissional:</label>
+            <select id="profissional" name="profissional" required>
+              <option value="profissional1">Richard</option>
+              <option value="profissional2">Vinicius</option>
+              <option value="profissional3">Emanuele</option>
+            </select>
+          </div>
+    
+          <div class="form-group">
+            <label for="servico">Serviço:</label>
+            <select id="servico" name="servico" required>
+              <option value="cabelo">Cabelo</option>
+              <option value="barba">Barba</option>
+              <option value="massagem">Massagem</option>
+              <option value="massagem">Pezinho</option>
+              <option value="massagem">Sobrancelha</option>
+            </select>
+          </div>
+    
+          <div class="form-group">
+            <div class="lead-btn" id="btn_agendar">Agendar
+            </div>
+          </div>
+
+        </form>
+      </div>
+      <a href="https://api.whatsapp.com/send?phone=seunumerodetelefone" class="whatsapp-button" target="_blank">
+        <img src="whatsapp.png" alt="WhatsApp">
+      </a>
+</body>
+</html>
