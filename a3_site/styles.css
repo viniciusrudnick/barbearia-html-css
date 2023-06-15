@@ -13,8 +13,8 @@ body {
   color:#ffffff;
   font-family:Helvetica, serif;
   font-weight:100;
-  background-image: linear-gradient(to left, black, white);
-  background-attachment:scroll, scroll;
+  background-image: url(Home-Nova-min.jpg);
+  background-attachment:fixed;
   background-position:left top, center center;
   background-repeat:repeat-y, no-repeat;
   background-size:contain, cover;
@@ -51,7 +51,7 @@ body {
   max-width:650px;
   line-height:30px;
   margin-bottom:30px;
-  color:black;
+  color:white;
 }
 .lead-btn{
   margin-top:15px;
